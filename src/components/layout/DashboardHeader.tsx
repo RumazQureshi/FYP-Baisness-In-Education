@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Bell, Search, Menu } from 'lucide-react';
+import { ModeToggle } from '@/components/mode-toggle';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import {
@@ -50,6 +51,9 @@ export const DashboardHeader = ({ role, onMenuClick }: HeaderProps) => {
 
       {/* Right: Role Badge & Notifications */}
       <div className="flex items-center gap-3">
+        {/* Theme Toggle */}
+        <ModeToggle />
+
         {/* Role Badge */}
         <Badge
           variant="secondary"
