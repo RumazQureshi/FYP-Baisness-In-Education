@@ -74,7 +74,7 @@ const Index = () => {
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary">
               <Shield className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="font-semibold text-lg">Explainable AI</span>
+            <span className="font-semibold text-lg">Hire Ginni</span>
           </div>
           <div className="flex items-center gap-3">
             <Link to="/login">
@@ -230,7 +230,7 @@ const Index = () => {
               <div className="flex bg-primary/5 rounded-xl p-1">
                 <Shield className="h-5 w-5 text-primary" />
               </div>
-              <span className="font-semibold">Explainable AI</span>
+              <span className="font-semibold">Hire Ginni</span>
             </div>
             <p className="text-sm text-muted-foreground text-center">
               Final Year Project: AI Powered Recruitment Platform by Explainable AI

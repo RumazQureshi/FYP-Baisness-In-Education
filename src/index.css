@@ -152,6 +152,7 @@
 }
 
 @layer components {
+
   /* Academic card style */
   .card-academic {
     @apply bg-card rounded-lg border border-border shadow-sm;
@@ -220,6 +221,7 @@
 }
 
 @layer utilities {
+
   /* Hide scrollbar */
   .scrollbar-hide {
     -ms-overflow-style: none;
@@ -240,6 +242,7 @@
       opacity: 0;
       transform: translateY(4px);
     }
+
     to {
       opacity: 1;
       transform: translateY(0);

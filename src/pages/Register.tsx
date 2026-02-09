@@ -168,7 +168,7 @@ const Register = () => {
                   <Input
                     id="reg-password"
                     type={showPassword ? "text" : "password"}
-                    placeholder="••••••••"
+                    placeholder="password"
                     value={formData.password}
                     onChange={(e) => handleChange('password', e.target.value)}
                     className={errors.password ? 'border-destructive pr-10' : 'pr-10'}
@@ -197,7 +197,7 @@ const Register = () => {
                   <Input
                     id="confirmPassword"
                     type={showConfirmPassword ? "text" : "password"}
-                    placeholder="••••••••"
+                    placeholder="password"
                     value={formData.confirmPassword}
                     onChange={(e) => handleChange('confirmPassword', e.target.value)}
                     className={errors.confirmPassword ? 'border-destructive pr-10' : 'pr-10'}

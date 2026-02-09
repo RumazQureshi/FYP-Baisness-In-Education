@@ -58,7 +58,7 @@ export const DashboardSidebar = ({ role, collapsed, onToggle }: SidebarProps) =>
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-sidebar-primary">
                 <Shield className="h-4 w-4 text-sidebar-primary-foreground" />
               </div>
-              <span className="font-semibold text-sm">Explainable AI</span>
+              <span className="font-semibold text-sm">Hire Ginni</span>
             </div>
           )}
           {collapsed && (

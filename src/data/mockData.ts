@@ -65,7 +65,7 @@ export const mockJobSeekerProfile: JobSeekerProfile = {
 
 // Mock Sensitive Attributes (detected from CV)
 export const mockSensitiveAttributes: SensitiveAttributes = {
-  name: 'John Smith',
+  name: 'Rumaz Naveed',
   university: 'Stanford University',
   contactInfo: 'john.smith@email.com, +1-555-0123',
   location: 'San Francisco, CA',
