@@ -59,8 +59,8 @@ const Login = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary mb-4">
             <Shield className="w-8 h-8 text-primary-foreground" />
           </div>
-          <h1 className="text-2xl font-semibold text-foreground">Bias-Aware Screening</h1>
-          <p className="text-muted-foreground mt-2">Fair recruitment through anonymization</p>
+          <h1 className="text-2xl font-semibold text-foreground">AI Powered Recruitment Platform</h1>
+          <p className="text-muted-foreground mt-2">by Explainable AI</p>
         </div>
 
         <Card className="shadow-academic-lg">

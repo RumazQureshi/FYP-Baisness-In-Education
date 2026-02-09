@@ -74,7 +74,7 @@ const Index = () => {
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary">
               <Shield className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="font-semibold text-lg">BiasAware</span>
+            <span className="font-semibold text-lg">Explainable AI</span>
           </div>
           <div className="flex items-center gap-3">
             <Link to="/login">
@@ -95,11 +95,11 @@ const Index = () => {
             Fair Recruitment Platform
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-4xl mx-auto">
-            Bias-Aware Resume Screening for{' '}
-            <span className="text-accent">Fair Recruitment</span>
+            AI Powered Recruitment Platform by{' '}
+            <span className="text-accent">Explainable AI</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mt-6 max-w-2xl mx-auto">
-            Promote diversity and fairness in hiring by evaluating candidates on their skills 
+            Promote diversity and fairness in hiring by evaluating candidates on their skills
             and qualifications—not their names, photos, or backgrounds.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
@@ -202,7 +202,7 @@ const Index = () => {
                 Start Hiring Fairly Today
               </h2>
               <p className="text-muted-foreground mb-6 max-w-xl mx-auto">
-                Join organizations committed to fair and unbiased recruitment. 
+                Join organizations committed to fair and unbiased recruitment.
                 Create an account to get started.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -223,16 +223,17 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="border-t border-border py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <Shield className="h-5 w-5 text-primary" />
-              <span className="font-semibold">BiasAware</span>
+              <div className="flex bg-primary/5 rounded-xl p-1">
+                <Shield className="h-5 w-5 text-primary" />
+              </div>
+              <span className="font-semibold">Explainable AI</span>
             </div>
             <p className="text-sm text-muted-foreground text-center">
-              Final Year Project: Bias-Aware Resume Screening System for Fair Recruitment
+              Final Year Project: AI Powered Recruitment Platform by Explainable AI
             </p>
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} All rights reserved

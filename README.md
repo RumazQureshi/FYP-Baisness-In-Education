@@ -1,8 +1,8 @@
-# Bias-Aware Resume Screening for Fair Recruitment
+# AI Powered Recruitment Platform by Explainable AI
 
 ## Project Info
 
-This project aims to reduce bias in the recruitment process through bias-aware resume screening.
+This project is an AI Powered Recruitment Platform by Explainable AI, aiming to reduce bias in the recruitment process.
 
 ## Getting Started
 

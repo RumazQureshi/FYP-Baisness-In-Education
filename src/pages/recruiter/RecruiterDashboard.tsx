@@ -77,10 +77,10 @@ const RecruiterDashboard = () => {
         <CardContent className="flex items-start gap-4 p-6">
           <Eye className="h-6 w-6 text-accent flex-shrink-0 mt-0.5" />
           <div className="space-y-1">
-            <p className="font-medium text-accent">Bias-Aware Screening Active</p>
+            <p className="font-medium text-accent">AI Powered Screening Active</p>
             <p className="text-sm text-muted-foreground">
-              All candidates are shown anonymously during initial screening. You'll see only their 
-              skills, experience summary, and education level—not their names, photos, universities, 
+              All candidates are shown anonymously during initial screening. You'll see only their
+              skills, experience summary, and education level—not their names, photos, universities,
               or personal details. This helps ensure fair evaluation based on qualifications alone.
             </p>
           </div>
